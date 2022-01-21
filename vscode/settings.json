@@ -16,7 +16,7 @@
   "workbench.sideBar.location": "right",
   "editor.guides.indentation": false,
 
-  // Configuracao do editor em geral
+  // Configurações geral
   "editor.tabSize": 2,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
