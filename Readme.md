@@ -21,7 +21,6 @@ Primeiro devemos instalar algumas coisas:
 #exemplo de link simbolico
 
 ln -sf /home/${USER}/auri-environment/vscode/snippets /home/${USER}/.config/Code/User/snippets
-`
 ```
 
 ### Configuração vim
@@ -36,6 +35,7 @@ ln -sf /home/${USER}/auri-environment/vscode/snippets /home/${USER}/.config/Code
 - Instale os pacotes na aba extensions `auri-theme` e `auri-bundle`
 - Já esta pronto para uso.
 
-
+### Proximos passos
+- Criar script para automatizar processo.
 
 
