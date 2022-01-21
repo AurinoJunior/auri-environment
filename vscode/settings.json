@@ -1,0 +1,58 @@
+{
+  // Themas de pastas, icones e do editor
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Esconde a barra de menu superior
+  "window.menuBarVisibility": "toggle",
+
+  // Esconde minimap
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+
+  // Configuracao da area de trabalho
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "editor.guides.indentation": false,
+
+  // Configuracao do editor em geral
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "'Hack Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+
+  // Eslint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Git
+  "git.autofetch": true,
+  "liveshare.presence": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "zsh"
+    }
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.colorTheme": "auri-theme",
+
+  // Git Lens
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false
+}
