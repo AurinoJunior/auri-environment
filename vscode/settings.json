@@ -15,6 +15,7 @@
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
   "editor.guides.indentation": false,
+  "workbench.tree.indent": 15,
 
   // Configurações geral
   "editor.tabSize": 2,
@@ -49,10 +50,10 @@
     }
   },
   "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "auri-theme",
 
   // Git Lens
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false
+  "gitlens.statusBar.enabled": false,
+  "workbench.colorTheme": "auri-theme"
 }
