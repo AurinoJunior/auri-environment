@@ -17,7 +17,7 @@
     "body": [
       "import React from \"react\";",
       "",
-      "export const Component: React.FC = () => {",
+      "export const Component = () => {",
       "  return <></>;",
       "};",
       ""
