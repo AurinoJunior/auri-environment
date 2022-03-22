@@ -71,12 +71,6 @@ let g:airline_section_z = 0
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 
-" Shortcut for split navigation
-map <C-left> <C-w>h
-map <C-down> <C-w>j
-map <C-up> <C-w>k
-map <C-right> <C-w>l
-
 nmap op o<Esc>k
 nmap oi O<Esc>j
 nmap oo A<CR>
@@ -84,8 +78,8 @@ nmap oo A<CR>
 nmap <c-n> <cmd>noh<cr>
 
 " Navigate between buffers
-nmap <leader><left> :bn<CR>
-nmap <leader><right> :bp<CR>
+nmap <leader><right> :bn<CR>
+nmap <leader><left> :bp<CR>
 
 " Delete a buffer
 nmap td <cmd>NERDTreeClose<cr> <esc>:bd<CR>
@@ -93,8 +87,6 @@ nmap td <cmd>NERDTreeClose<cr> <esc>:bd<CR>
 " Create splits
 nmap <leader>h :split<CR>
 nmap <leader>v :vsplit<CR>
-
-nnoremap <leader>hl :SearchAutoHighlighting<CR>
 
 " ================== NERDTREE ========================
 nnoremap <leader>e :NERDTreeToggle<CR>
