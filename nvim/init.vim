@@ -5,21 +5,14 @@ Plug 'vim-airline/vim-airline' " Airline
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'ryanoasis/vim-devicons' " Fonts icon
-Plug 'kyazdani42/nvim-web-devicons' " Icons fonts
 Plug 'sheerun/vim-polyglot' " syntax highlight
 
 Plug 'preservim/nerdtree' " Files tree
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-Plug 'neoclide/coc.nvim' , { 'branch' : 'release' } " Auto complete
 Plug 'honza/vim-snippets' " Snippets
 Plug 'jiangmiao/auto-pairs' " () [] etc.
 
-" Search files
-if (has("nvim"))
-    Plug 'nvim-lua/plenary.nvim'
-    Plug 'nvim-telescope/telescope.nvim'
-endif
 call plug#end()
 
 
@@ -107,15 +100,4 @@ autocmd! VimEnter * NERDTree | wincmd w
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 
-" ================== TELESCOPE =======================
-" Find files using Telescope command-line sugar.
-nnoremap <C-p> <cmd>Telescope find_files<cr>
-nnoremap <C-f> <cmd>Telescope live_grep<cr>
-"nnoremap <leader>fb <cmd>Telescope buffers<cr>
-"nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
-lua require('telescope').setup{ defaults = { file_ignore_patterns = {"node_modules"} } }
-
-
-" ================== COC ========================
-source ~/.config/nvim/modules/coc.vim
