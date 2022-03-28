@@ -18,13 +18,13 @@
   switch_to_tab_7 = <Alt>7
 [profiles]
   [[default]]
-    background_color = "#1e282c"
+    background_color = "#1a1b23"
     background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = Hack Nerd Font Mono 11
     foreground_color = "#ffffff"
-    palette = "#083640:#ea5f6c:#bbee74:#f7e88a:#75e4d8:#fd278e:#aedefd:#ffffff:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    palette = "#2e3436:#ea5f6c:#2dd48f:#e8d375:#238aff:#fd278e:#59cada:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     use_system_font = False
 [layouts]
   [[default]]
