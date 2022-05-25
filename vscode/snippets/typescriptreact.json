@@ -23,5 +23,10 @@
       ""
     ],
     "description": "Typescript func component"
+  },
+  "Dexcribe test": {
+    "prefix": "desc_test",
+    "body": ["describe('', () => {", "  test('', () => {})", "})", ""],
+    "description": "Dexcribe test"
   }
 }
